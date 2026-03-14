@@ -7,10 +7,15 @@ h1{
     font-family: 'Black Ops One'; 
 }
 
+h2{
+    margin-top: 0;
+    font-size: 18px;
+}
+
 section {
     background: rgb(255, 255, 255);
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -25,6 +30,12 @@ section {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+.container_1, .container_2 {
+    display: flex;
+    align-items: center;       /* centraliza verticalmente */
+    justify-content: center;   /* centraliza horizontalmente */
 }
 
 /* Container com 3 caixas coloridas*/
