@@ -1,6 +1,15 @@
+body{
+    margin: 15px;
+}
+
+/* Fonte customizada do Google Fonts*/
+h1{
+    font-family: 'Black Ops One'; 
+}
+
 section {
-    background: white;
-    padding: 20px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
     margin-bottom: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -17,4 +26,3 @@ section {
     justify-content: center;
     font-weight: bold;
 }
-
